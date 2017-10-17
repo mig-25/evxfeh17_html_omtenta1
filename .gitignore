@@ -7,3 +7,4 @@ dist/**/*
 sassdoc
 settings.json
 .vscode
+package-lock.json
