@@ -9,7 +9,7 @@
 //enskilda moduler
 @import 'modules/modules_index';
 //generell layout
-@import 'layout/modules_index';
+@import 'layout/layout_index';
 
 //
 // LAYOUT:
@@ -23,5 +23,5 @@
 
 .testing {
     width: percentage(5/7);
-    background: green;
+    background: red;
   }
