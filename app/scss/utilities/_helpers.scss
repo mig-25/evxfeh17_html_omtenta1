@@ -13,3 +13,11 @@ margin: 10px;
  font-size:1.5em;
 }
 
+%float-clear {
+  &:after {
+    clear: both;
+    display: table;
+    content: '';
+  }
+}
+

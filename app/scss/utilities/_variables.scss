@@ -1,17 +1,8 @@
 /// @author Sohail Hasware
 /// Jquery
-@import url(https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js);
-/// Font icons
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans);
-@import url(http://fonts.googleapis.com/css?family=Poiret+One);
-/// Text setup
-$text: (
-  body: unquote("'Merriweather', serif"),
-  body-weight: 400,
-  headline: unquote("'Oswald', 'Helvetica Neue', Arial, sans-serif"),
-  headline-weight: 400,
-) !default;
+$sans: 'Oswald', sans-serif;
+$serif: 'Georgia', serif;
+$body: 'Helvetica Neue', 'Arial', sans-serif;
 
 
 /// COLORS map
@@ -45,10 +36,10 @@ $color-defs: (
 /// Breakpoint map
 
 $breakpoints: (
-  'small':  ( min-width:  40.000em ),
-  'medium': ( min-width:  48.000em ),
-  'large':  ( min-width: 62.000em ),
-  'wide':  ( min-width: 75.000em )
+  'small':  ( min-width:  46.875em ),
+  'medium': ( min-width:  52.500em ),
+  'large':  ( min-width: 75.000em ),
+  'wide':  ( min-width: 85.000em )
 ) !default;
 
 
